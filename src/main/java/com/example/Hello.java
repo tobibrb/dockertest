@@ -19,6 +19,7 @@ public class Hello {
         return "Hello World!";
     }
 
+
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Hello.class, args);
     }
