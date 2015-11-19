@@ -21,6 +21,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'findbugs'
+apply plugin: 'com.github.kt3k.coveralls'
 
 jar {
     baseName = 'demo'
