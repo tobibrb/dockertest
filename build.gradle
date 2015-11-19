@@ -11,11 +11,16 @@ buildscript {
     }
 }
 
+plugins {
+    id 'net.saliman.cobertura' version '2.2.7'
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot' 
-apply plugin: 'io.spring.dependency-management' 
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'findbugs'
 
 jar {
     baseName = 'demo'
